@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.ch{
+    height: 210px;
+}*/
+div{
+    font-family: 'Italianno';
+    font-size: 25px;
+}
+
+img{
+    width: 300px;
+    height: 175px;
+}
+#wnImg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 350px;
+}
+
+#mlImg{
+    height: 300px;
+}
+
+
+@media screen and (max-width: 750px) {
+    img{
+        width: 300px;
+        height: 250px;
+    }
+    #wnImg #mlInmg{
+        height: 250px;
+    }
+}
+
